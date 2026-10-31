@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "阅流 · 小说沉浸阅读",
+  "version": "1.0.6",
+  "minimum_chrome_version": "109",
+  "description": "网页小说智能提取、护眼排版、无干扰阅读、自动滚动与无感加载下一章。",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "开启阅流小说阅读"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

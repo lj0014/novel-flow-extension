@@ -1,0 +1,17 @@
+{
+  "name": "novel-flow-extension",
+  "version": "1.0.6",
+  "private": true,
+  "description": "Chrome Manifest V3 immersive reader for Chinese web novels",
+  "scripts": {
+    "validate": "node scripts/validate-extension.mjs",
+    "test": "node tests/repro-paging.cjs",
+    "test:live": "node tests/live-template-probe.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
