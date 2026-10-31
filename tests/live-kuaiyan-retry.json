@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-31T10:33:20.238Z",
+  "results": [
+    {
+      "url": "https://www.kuaiyankanshu.info/book/61776/13395752.html",
+      "http": 200,
+      "finalURL": "https://www.kuaiyankanshu.info/book/61776/13395752.html",
+      "source": {
+        "title": "第29章 又觉得我跟踪你们第1页_封总太太想跟你离婚很久了封庭深容辞完整版阅读_云中觅_快眼看书",
+        "articleSelector": "",
+        "articleCharacters": 0,
+        "articleSample": "",
+        "nextText": "",
+        "nextHref": "",
+        "nextDisabled": false,
+        "candidates": [
+          {
+            "selector": "#article.content",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": "#fullContent",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": "#contentBody",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": "#chapterContent",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": ".j_readContent",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": ".art_fm .art_cnt",
+            "found": false,
+            "characters": 0
+          },
+          {
+            "selector": ".read-section.jsChapterWrapper",
+            "found": false,
+            "characters": 0
+          }
+        ]
+      },
+      "reader": {
+        "chapters": 1,
+        "characters": 634,
+        "paragraphs": 30,
+        "sample": "[正文已脱敏，仅保留字符数用于验证]",
+        "tail": "[正文已脱敏，仅保留字符数用于验证]",
+        "knownNoise": false,
+        "title": "第29章 又觉得我跟踪你们（第1页）",
+        "next": "下一页",
+        "nextDisabled": false
+      },
+      "afterClicks": [
+        {
+          "chapters": 1,
+          "characters": 1391,
+          "paragraphs": 60,
+          "lastTitle": "第29章 又觉得我跟踪你们（第1页）",
+          "next": "下一页",
+          "nextDisabled": false,
+          "status": "滑动到底部，自动载入后续内容"
+        },
+        {
+          "chapters": 1,
+          "characters": 2107,
+          "paragraphs": 88,
+          "lastTitle": "第29章 又觉得我跟踪你们（第1页）",
+          "next": "下一章",
+          "nextDisabled": false,
+          "status": "滑动到底部，自动载入后续内容"
+        },
+        {
+          "chapters": 2,
+          "characters": 2717,
+          "paragraphs": 121,
+          "lastTitle": "第30章 妈妈有事下次吧（第1页）",
+          "next": "下一页",
+          "nextDisabled": false,
+          "status": "滑动到底部，自动载入后续内容"
+        }
+      ],
+      "afterClick": {
+        "chapters": 2,
+        "characters": 2717,
+        "paragraphs": 121,
+        "lastTitle": "第30章 妈妈有事下次吧（第1页）",
+        "next": "下一页",
+        "nextDisabled": false,
+        "status": "滑动到底部，自动载入后续内容"
+      }
+    }
+  ]
+}
