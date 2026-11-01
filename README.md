@@ -112,14 +112,22 @@ npm run test:live
 ├── content.js                # 正文提取、阅读器与翻页逻辑
 ├── icons/                    # 扩展图标
 ├── dist/                     # 可安装 ZIP 与校验值
-├── docs/                     # 预览图
+├── docs/                     # 预览图、项目页与隐私政策
 ├── scripts/validate-extension.mjs
+├── store/                    # Chrome Web Store 包与提交材料
 └── tests/                    # 浏览器回归、公开站探测和原始结果
 ```
 
 ## 隐私
 
-扩展的正文提取、排版和翻页都在浏览器本地完成。除请求用户当前正在阅读的同源章节外，不向第三方发送数据。更多说明见 [SECURITY.md](SECURITY.md)。
+扩展的正文提取、排版和翻页都在浏览器本地完成。除请求用户当前正在阅读的同源章节外，不向第三方发送数据。更多说明见 [隐私政策](https://lj0014.github.io/novel-flow-extension/privacy.html) 和 [SECURITY.md](SECURITY.md)。
+
+## Chrome Web Store
+
+1.0.6 的商店上传包、商品文案、隐私披露、权限理由和审核检查单位于 [`store/`](store/)。商店包与本地“加载已解压扩展”安装包分开维护：
+
+- 本地安装包：`dist/NovelFlow_1.0.6_Chrome.zip`，解压后选择 `novel-flow-extension` 文件夹。
+- 商店上传包：`store/NovelFlow_1.0.6_ChromeWebStore.zip`，`manifest.json` 位于 ZIP 根目录。
 
 ## 许可证
 
