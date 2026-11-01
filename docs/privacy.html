@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>阅流 NovelFlow 隐私政策</title>
+  <style>
+    :root {
+      --bg: #f7f2e9;
+      --paper: #fffdf8;
+      --ink: #332d27;
+      --muted: #6d645b;
+      --line: #ded4c5;
+      --accent: #496c55;
+      --accent-soft: #dfeadd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 10% 10%, #e4eee0 0, transparent 28rem),
+        var(--bg);
+      color: var(--ink);
+      font: 16px/1.75 ui-serif, "Songti SC", "Noto Serif CJK SC", serif;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 42px auto 72px;
+      padding: clamp(24px, 5vw, 58px);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 18px 60px #493e3214;
+    }
+    h1, h2 { line-height: 1.3; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 6vw, 48px); }
+    h2 { margin-top: 2em; font-size: 1.3em; color: var(--accent); }
+    p, li { max-width: 72ch; }
+    .lead { color: var(--muted); margin-top: 0; }
+    .meta, .note {
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: var(--accent-soft);
+    }
+    .meta { margin: 24px 0 32px; }
+    code {
+      padding: .12em .35em;
+      border-radius: 5px;
+      background: #ebe4d8;
+      font: .9em ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+    a { color: #365a43; text-underline-offset: .18em; }
+    hr { margin: 2.5em 0; border: 0; border-top: 1px solid var(--line); }
+    .en { font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.7; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #171b1f;
+        --paper: #22282e;
+        --ink: #e2ded5;
+        --muted: #b1aaa0;
+        --line: #3a454d;
+        --accent: #9fc3a1;
+        --accent-soft: #2f3d35;
+      }
+      code { background: #303840; }
+      a { color: #a8d3aa; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>阅流 NovelFlow 隐私政策</h1>
+  <p class="lead">Chrome 扩展隐私说明 · 中文</p>
+  <p class="meta"><strong>生效日期：</strong>2026-11-01<br>
+  <strong>适用版本：</strong>1.0.6 及以后版本，直至本页面更新</p>
+
+  <h2>1. 单一用途</h2>
+  <p>阅流用于把用户当前有权访问的网页小说正文整理为本地阅读视图。扩展只在用户点击工具栏图标后运行，不监听或修改其他浏览活动。</p>
+
+  <h2>2. 处理的数据</h2>
+  <ul>
+    <li><strong>当前网页内容：</strong>为提取正文、识别下一页或下一章，扩展会读取用户主动开启阅读器的页面，以及同一网站内由页面链接指向的后续章节。</li>
+    <li><strong>当前网页地址：</strong>用于判断站点规则、请求同源后续页面、防止翻页循环，并在本机保存阅读位置。</li>
+    <li><strong>设置和阅读进度：</strong>主题、字号、行距、宽度、滚动速度、站点级 CSS 选择器和阅读位置保存在浏览器本机的 <code>chrome.storage.local</code>。</li>
+  </ul>
+
+  <h2>3. 不收集、不出售、不共享</h2>
+  <p>扩展不把正文、网址、浏览历史、设置或阅读进度上传给开发者或任何第三方；不包含账号系统、广告、统计、远程脚本、远程规则更新或数据出售/共享服务。</p>
+
+  <h2>4. 网络访问</h2>
+  <p>扩展只请求当前小说网站及页面中可靠链接所指向的同源页面。浏览器会按正常网页会话规则处理登录状态和同源 cookie；扩展不直接读取、记录或修改 cookie。跨域章节、跨域 iframe、登录、VIP、购买、订阅、验证码、安全验证和限流不会被绕过。</p>
+
+  <h2>5. 权限用途</h2>
+  <ul>
+    <li><code>activeTab</code>：仅在用户点击扩展图标后临时授予当前标签页访问权。</li>
+    <li><code>scripting</code>：把随扩展打包的本地阅读器脚本按需注入当前标签页。</li>
+    <li><code>storage</code>：在本机保存阅读设置、站点选择器和阅读位置。</li>
+  </ul>
+
+  <h2>6. 保留与删除</h2>
+  <p>设置和阅读进度保留在本机浏览器存储中，直到用户清除扩展数据或卸载扩展。正文不会被持久存储。用户可通过 Chrome 扩展管理页移除扩展，以清除其本地存储。</p>
+
+  <h2>7. 儿童隐私</h2>
+  <p>扩展不主动收集任何人的个人信息，也不面向儿童专门收集数据。</p>
+
+  <h2>8. 政策更新</h2>
+  <p>功能或数据处理方式发生实质变化时，本页面会更新生效日期，并在适用的 Chrome Web Store 商品详情中说明。</p>
+
+  <h2>9. 联系</h2>
+  <p>隐私或安全问题请通过 <a href="https://github.com/lj0014/novel-flow-extension/issues">GitHub Issues</a> 联系维护者。请勿在公开 Issue 中粘贴账号凭据、cookie 或受限正文。</p>
+
+  <hr>
+
+  <section class="en" lang="en">
+    <h1>NovelFlow Privacy Policy</h1>
+    <p class="lead">Chrome extension privacy notice · English</p>
+    <p><strong>Effective date:</strong> November 1, 2026</p>
+    <p>NovelFlow is a single-purpose extension that turns the novel chapter a user is authorized to view into a local immersive reading view. It runs only after the user clicks the toolbar icon.</p>
+    <p>The extension reads the current page and same-origin linked chapter pages to extract text and navigate. The current URL is used for site matching, safe same-origin requests, loop prevention, and locally stored progress. Reading preferences, site selectors, and progress are stored in <code>chrome.storage.local</code>. Article text, URLs, browsing history, settings, and reading progress are not uploaded to the developer or any third party.</p>
+    <p>NovelFlow contains no account system, advertising, analytics, remote code, remote rule updates, or data sale/sharing. It does not bypass login, VIP, purchase, subscription, CAPTCHA, security checks, rate limits, or cross-origin browser boundaries. The browser handles normal same-site cookies; the extension does not directly read, record, or modify cookies.</p>
+    <p>Permissions are limited to <code>activeTab</code> for temporary access after a user click, <code>scripting</code> for injecting the bundled local reader, and <code>storage</code> for local preferences and reading position. Local data remains until the user clears extension data or uninstalls the extension.</p>
+    <p>Contact the maintainer through <a href="https://github.com/lj0014/novel-flow-extension/issues">GitHub Issues</a> for privacy or security questions.</p>
+  </section>
+</main>
+</body>
+</html>
