@@ -22,3 +22,7 @@
 ## 报告问题
 
 如发现安全问题，请通过 GitHub 仓库的 Issues 或 Security Advisory 联系维护者，并附上复现步骤、浏览器版本和最小测试页面。请勿在公开 Issue 中粘贴账号凭据、cookie 或受限正文。
+
+面向 Chrome Web Store 的完整中英双语隐私政策见：
+
+<https://lj0014.github.io/novel-flow-extension/privacy.html>
